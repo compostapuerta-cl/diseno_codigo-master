@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Bebas+Neue&family=Inter:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build/css/app.css">
+    <title>Proyecto SASS</title>
+</head>
+
+<body>
+
+    <header class="contenedor">
+        <nav class="navegacion">
+            
+            <img class="navegacion__img" src="img/logo.svg" width="100" alt="Logo svg">
+            <i class="navegacion__icono fa-solid fa-bars"></i>
+           
+            <div class="navegacion__contenedor">
+                <a class="navegacion__anclas" href="">Soluciones para ti</a>
+                <a class="navegacion__anclas" href="">Que ofrecemos</a>
+                <a class="navegacion__anclas" href="">Socios</a>
+                <a class="navegacion__anclas" href="">Aprende</a>
+                <a class="navegacion__anclas navegacion__anclas--borde" href="">Ingresar</a>
+                <a class="navegacion__anclas" href=""><button class="navegacion__boton">Crear cuenta</button></a>
+            </div>
+        </nav>
+
+        <section class="informacion">
+            <div class="informacion__grid">
+                <div>
+                    <p class="informacion__texto">Muestrale al mundo de lo que eres capaz</p>
+                    <h2 class="informacion__titulo"><span class="informacion__titulo--span">Migra</span> tu tienda en
+                        linea gratis</h2>
+                    <p class="informacion__texto informacion__texto--negro">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Excepturi fugit beatae rem illo autem,
+                        consequuntur dicta id cupiditate sequi, ullam corporis. Reiciendis nam nostrum, nulla quos et
+                        quasi eius laborum</p>
+                    <a class="" href=""><button class="informacion__boton">Crear cuenta</button></a>
+                </div>
+
+                <div>
+                    <img class="informacion__imagen" src="img/imagen1.webp" width="500" alt="Imagen webp">
+                </div>
+            </div>
+        </section>
+        <div class="marcas">
+            <img class="marcas__logos" src="img/marca1.svg" width="100" alt="marcas">
+            <img class="marcas__logos" src="img/marca2.svg" width="100" alt="marcas">
+            <img class="marcas__logos" src="img/marca3.svg" width="100" alt="marcas">
+            <img class="marcas__logos" src="img/marca4.svg" width="100" alt="marcas">
+            <img class="marcas__logos" src="img/marca5.svg" width="100" alt="marcas">
+        </div>
+    </header>
+
+    <section class="paquetes">
+
+        <div class="paquetes__titulo">
+            <h2 class="paquetes__titulo--h2">Soluciones diferentes para potenciar cada negocio</h2>
+            <p class="paquetes__titulo--p">Crea tu tienda online con las herramientas que tu marca necesita para llegar
+                más lejos.</p>
+        </div>
+
+        <div class="paquetes__grid">
+            <div class="paquetes__tarjeta">
+                <p class="paquetes__texto paquetes__texto--cat">Gratis</p>
+                <p class="paquetes__texto paquetes__texto--mont">$ <span class="paquetes__texto--span">0</span> MXN/mes
+                </p>
+                <p class="paquetes__texto paquetes__texto--comi">sin comisiones por venta</p>
+                <p class="paquetes__texto paquetes__texto--flex">Flexibilidad y acompañamiento necesarios para mejorar
+                    tu posicionamiento de marca</p>
+                <button class="paquetes__boton">Probar gratis</button>
+            </div>
+            <div class="paquetes__tarjeta">
+                <p class="paquetes__texto paquetes__texto--cat">Basico</p>
+                <p class="paquetes__texto paquetes__texto--mont">$ <span class="paquetes__texto--span">111</span>
+                    MXN/mes</p>
+                <p class="paquetes__texto paquetes__texto--comi">sin comisiones por venta</p>
+                <p class="paquetes__texto paquetes__texto--flex">Flexibilidad y acompañamiento necesarios para mejorar
+                    tu posicionamiento de marca</p>
+                <button class="paquetes__boton">Probar gratis</button>
+            </div>
+            <div class="paquetes__tarjeta paquetes__tarjeta--rela">
+                <p class="paquetes__texto paquetes__texto--recom">Recomendado</p>
+                <p class="paquetes__texto paquetes__texto--cat">Tiendanube</p>
+                <p class="paquetes__texto paquetes__texto--mont">$ <span class="paquetes__texto--span">249</span>
+                    MXN/mes</p>
+                <p class="paquetes__texto paquetes__texto--comi">sin comisiones por venta</p>
+                <p class="paquetes__texto paquetes__texto--flex">Flexibilidad y acompañamiento necesarios para mejorar
+                    tu posicionamiento de marca</p>
+                <button class="paquetes__boton">Probar gratis</button>
+            </div>
+            <div class="paquetes__tarjeta">
+                <p class="paquetes__texto paquetes__texto--cat">Avanzado</p>
+                <p class="paquetes__texto paquetes__texto--mont">$ <span class="paquetes__texto--span">999</span>
+                    MXN/mes</p>
+                <p class="paquetes__texto paquetes__texto--comi">sin comisiones por venta</p>
+                <p class="paquetes__texto paquetes__texto--flex">Flexibilidad y acompañamiento necesarios para mejorar
+                    tu posicionamiento de marca</p>
+                <button class="paquetes__boton">Probar gratis</button>
+            </div>
+        </div> <!-- Termina grid -->
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer__contenedor">
+            <img class="footer__img" src="img/logo.svg" width="100" alt="Logo svg">
+            <div class="footer__grid">
+                <div class="footer__info">
+                    <h3>Tienda en linea</h3>
+                    <p>Diseños</p>
+                    <p>Aplicaciones</p>
+                    <p>Vender en tu tienda</p>
+                    <p>Vender por Facebook</p>
+                    <p>Vender por Instagram</p>
+                    <p>Empresarial</p>
+                </div>
+                <div class="footer__info">
+                    <h3>Contenido</h3>
+                    <p>Blog</p>
+                    <p>Ebooks</p>
+                    <p>Checklists</p>
+                    <p>Plantillas</p>
+                    <p>Generador de nombres</p>
+                    <p>Creador de eslogans</p>
+                    <p>Creador de logos</p>
+                </div>
+                <div class="footer__info">
+                    <h3>Ecosistema</h3>
+                    <p>Socio</p>
+                    <p>Especialista</p>
+                    <h3>Institucional</h3>
+                    <p>Sobre nosotros</p>
+                    <p>Trabaja con nosotros</p>
+                </div>
+                <div class="footer__info">
+                    <h3>Recursos humanos</h3>
+                    <p>Atencion al cliente</p>
+                    <p>Status pagina</p>
+                </div>
+            </div>
+        </div>
+        <p class="footer__name">Página hecha con fines educativos - Luis Carlos Vazquez Perez</p>
+    </footer>
+
+
+
+</body>
+
+</html>

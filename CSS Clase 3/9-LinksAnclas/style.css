@@ -1,0 +1,27 @@
+a {
+    font-size: 50px;
+    margin: 40px;
+    text-decoration: none;
+    background-color: aquamarine;
+}
+
+a:link {
+    color: rgb(7, 216, 0);
+    /* CUANDO ES LA PRIMERA VEZ QUE ENTRAS A LA PAGINA Y 
+    NUNCA LE HAS DADO CLICK */
+}
+
+a:visited{
+    color: rgb(0, 0, 0);
+    /* UNA VEZ QUE EL ENLACE ES VISITADO */
+}
+
+a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+a:active{
+    background-color: rgba(216, 0, 0, 0.795);
+    color: black;
+}

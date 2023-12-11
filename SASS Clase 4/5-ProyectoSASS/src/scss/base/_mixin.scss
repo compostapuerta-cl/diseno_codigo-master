@@ -1,0 +1,28 @@
+//2
+@use '../base/variables' as v;
+
+@mixin boton($background){
+    border: none;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 1.5rem;
+    background-color: $background;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+
+    &:hover {
+        background-color: v.$blanco;
+        color: v.$azul;
+        box-shadow: 0 0 0 .1rem v.$azul;
+        cursor: pointer;
+    }
+}
+
+//6
+
+@mixin tel{
+    @media (max-width: 768px) {
+        @content;
+         /* La directiva @content representa el contenido que pasas al mixin */
+    }
+}

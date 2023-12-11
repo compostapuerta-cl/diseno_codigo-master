@@ -1,0 +1,14 @@
+.definidos{
+    color: azure;
+background-color: blue;
+}
+
+.hexadecimales{
+    color: azure;
+   background-color: #76448A;
+}
+
+.rgb{
+    color: azure;
+    background-color: rgb(156, 100, 12);
+}

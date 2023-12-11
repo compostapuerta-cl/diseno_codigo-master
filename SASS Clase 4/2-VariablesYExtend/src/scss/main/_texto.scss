@@ -1,0 +1,16 @@
+@use 'base/variables' as v;
+
+// body{
+//   color: variables.$negro;
+// }
+
+.texto1 {
+    color: v.$secundario;
+    font-family: v.$fuente;
+    font-size: v.$baseTamano;
+  }
+
+  .texto2{
+    @extend .texto1;
+    color: v.$primario;
+  }

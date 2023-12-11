@@ -1,0 +1,31 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cascada {
+  color: red;
+  color: aqua;
+  color: blueviolet;
+}
+
+
+.contenedor {
+  background-color: #eaeaea;
+  color: rgb(63, 178, 34);
+  font-size: 50px
+}
+
+.titulo {
+  color: blue;
+  font-size: 24px;
+  font-family: monospace;
+}
+
+.parrafo, .texto {
+  font-size: 18px;
+  color: red;
+}
+
+.texto{
+  background-color: rgb(0, 180, 81);
+}

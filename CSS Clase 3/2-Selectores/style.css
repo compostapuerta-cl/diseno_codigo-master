@@ -1,0 +1,15 @@
+*{
+    background-color: cadetblue;
+}
+
+h2{
+    color: burlywood;
+}
+
+#porId{
+    color: blueviolet;
+}
+
+.porClase, h5{
+    color: rgb(0, 255, 76);
+}

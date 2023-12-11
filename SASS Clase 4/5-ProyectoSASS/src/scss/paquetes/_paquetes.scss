@@ -1,0 +1,148 @@
+@use '../base/variables' as v;
+@use '../base/mixin' as m;
+
+//4
+.paquetes {
+    background-color: v.$azulOscuro;
+    height: 70rem;
+    //5
+
+    @include m.tel {
+        height: 75rem;
+    }
+
+    &__titulo {
+        text-align: center;
+
+        &--h2 {
+            color: v.$blanco;
+            font-size: 4rem;
+            padding-top: 3rem;
+            margin: 0;
+
+            //5
+            @include m.tel {
+                font-size: 2.5rem;
+                margin-bottom: 1rem;
+            }
+        }
+
+        &--p {
+            color: v.$blanco;
+            font-size: 1.5rem;
+            margin-top: .5rem;
+            margin-bottom: 8rem;
+
+            //5
+            @include m.tel {
+                font-size: 1.2rem;
+                margin-bottom: 4rem;
+            }
+        }
+    }
+
+    &__tarjeta {
+        background-color: v.$blanco;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 45rem;
+
+        &--rela {
+            position: relative;
+        }
+
+    }
+
+    &__texto {
+        text-align: center;
+
+        &--cat {
+            font-family: v.$secundaria;
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+
+            //5
+            @include m.tel {
+                font-size: 1.5rem;
+            }
+        }
+
+        &--mont {
+            font-size: 2rem;
+            color: v.$azulOscuro;
+            font-weight: bold;
+            margin-top: 0;
+
+            //5
+            @include m.tel {
+                font-size: 1rem;
+            }
+        }
+
+        &--comi {
+            margin-top: 0;
+            font-size: 1rem;
+        }
+
+        &--flex {
+            font-size: 2rem;
+            font-weight: 100;
+
+            //5
+            @include m.tel {
+                font-size: 1.5rem;
+            }
+        }
+
+        &--span {
+            color: v.$azul;
+            font-size: 3rem;
+
+            //5
+            @include m.tel {
+                font-size: 2rem;
+            }
+        }
+
+        &--recom {
+            width: 100%;
+            background-color: v.$azulOscuro2;
+            color: v.$blanco;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 100;
+            text-transform: uppercase;
+            font-size: 2rem;
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+            padding: .5rem 0 .5rem 0;
+            position: absolute;
+            top: -4.5rem;
+
+            //5
+            @include m.tel {
+                top: -1rem;
+                font-size: 1rem;
+            }
+        }
+
+    }
+
+    &__boton {
+        @include m.boton(v.$azul);
+        font-size: 1.5rem;
+        font-weight: 100;
+        margin-top: 3rem;
+
+        //5
+        @include m.tel {
+            font-size: 1rem;
+        }
+    }
+
+}
+
+//Termina 4

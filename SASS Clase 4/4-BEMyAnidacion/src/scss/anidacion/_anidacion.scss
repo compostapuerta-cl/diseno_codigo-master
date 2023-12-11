@@ -1,0 +1,18 @@
+.header{
+    background-color: red;
+
+
+    .texto1{
+        color: wheat;
+    }
+
+    .texto2{
+        color: aqua;
+    }
+
+    &:hover{
+        background-color: blueviolet;
+    }
+
+}
+

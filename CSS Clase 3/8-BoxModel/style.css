@@ -1,0 +1,26 @@
+/* html{
+    box-sizing: border-box;
+    }
+    *, *:before, *:after{
+    box-sizing: inherit;
+    } */
+
+.modelo {
+    text-align: center;
+    background-color: brown;
+    padding: 25px;
+    margin: 50px;
+    border: solid 15px violet;
+}
+
+.modelo2 {
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin-left: 20px;
+
+    border: solid 15px red;
+    border-radius: 20px;
+ 
+} 

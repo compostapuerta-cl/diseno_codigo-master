@@ -1,0 +1,30 @@
+@use '../base/mixin' as m;
+
+//1
+.informacion__grid{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+
+    //5
+    @include m.tel{
+        display: block;
+     }
+}
+
+
+//4
+.paquetes__grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    width: 80%;
+    margin: 0 auto;
+
+    @include m.tel{
+        overflow: auto;
+       height: 50rem;
+     }
+}

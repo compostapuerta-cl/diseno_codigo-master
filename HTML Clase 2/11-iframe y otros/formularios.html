@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Formularios HTML5</h1>
+    <hr>
+
+    <h2>Formularios Parte 1</h2>
+    <form action="">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="">Ingresa nombre</label>
+            <input type="text" name="" id="" placeholder="Ingresa tu nombre" required>
+            <hr>
+
+            <p>Sexo?</p>
+            <label for="">Masculino</label>
+            <input type="radio" name="sexo" id="" checked>
+            <label for="">Femenino</label>
+            <input type="radio" name="sexo" id="">
+            <label for="">Dinosaurio</label>
+            <input type="radio" name="sexo" id="" disabled>
+
+            <hr>
+            <p>Selecciona tus intereses</p>
+            <input type="checkbox" name="" id="">
+            <label for="">Peliculas</label>
+            <br>
+
+            <input type="checkbox" name="" id="" checked>
+            <label for="">Libros</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Internet</label>
+            <hr>
+
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <h2>Formulario Parte 2</h2>
+
+    <form action="">
+        <fieldset>
+            <legend>Ubicacion</legend>
+
+            <label for="">Donde eres?</label>
+            <select name="" id="">
+                <option selected disabled value="">Seleccionar</option>
+                <option value="">Piedras Negras</option>
+                <option value="">EaglePass</option>
+                <option value="">Nava</option>
+            </select>
+
+            <br>
+
+            <label for="">Comentario</label>
+            <textarea name="" id="" cols="20" rows="20" placeholder="Ingresa tu comentario"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <h2>Formulario parte 3</h2>
+    <form action="">
+        <fieldset>
+            <legend>Formulario para cada cosa</legend>
+
+            <label for="p1">Ingresa Password</label>
+            <input type="password" name="" id="p1">
+            <br>
+            <label for="">Fecha</label>
+            <input type="date" name="" id="">
+            <br>
+            <label for="">Color</label>
+            <input type="color" name="" id="">
+            <br>
+            <label for="">Hora</label>
+            <input type="time" name="" id="">
+            <br>
+            <label for="">Archivo</label>
+            <input type="file" name="" id="">
+            <br>
+            <label for="">Telefono</label>
+            <input type="tel" name="" id="">
+            <br>
+            <label for="">Email</label>
+            <input type="email" name="" id="">
+            <br>
+            <label for="">Precio</label>
+            <input type="number" name="" id="" min="0" max="100">
+            <br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+<hr>
+
+
+<h2>Tips</h2>
+<br>
+
+<p>NAME = PARA BASE DE DATOS</p>
+<p>ID = PARA JAVASCRIPT</p>
+<p>FOR = Determinar el ID que se debe asociar el label.</p>
+
+<br>
+<p>Disabled - Para los input (Los Desactiva)</p>
+<p>Checked - Para los checkbox y radio (Los Selecciona)</p>
+<p>Selected - Para los option del select</p>
+<p>Placeholder - Para los input </p>
+<p>Required - Para todo tipo de formulario para que no vaya vacio</p>
+<p>min, max - Para los input number</p>
+
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(0, 20, 46);
+}
+
+
+p{
+    background-color: brown;
+    color: white;
+    width: 50%;
+    height: 100px;
+
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+
+.contenedor{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+img{
+ position: relative;
+ right: 200px;
+}
+
+img:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: ease-out .5s;
+}
+
+img:not(:hover){
+    transition: ease-out 1s;
+}
+

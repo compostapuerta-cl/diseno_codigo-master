@@ -1,0 +1,13 @@
+@mixin textoFondo($textoColor, $fondoColor, $size) {
+    background-color: $fondoColor;
+    color: $textoColor;
+    font-size: $size;
+}
+
+
+@mixin tablet {
+    @media (min-width: 768px) {
+        @content;
+         /* La directiva @content representa el contenido que pasas al mixin */
+    }
+}

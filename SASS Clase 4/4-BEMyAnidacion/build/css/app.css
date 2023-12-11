@@ -1,0 +1,37 @@
+.header {
+  background-color: red;
+}
+.header .texto1 {
+  color: wheat;
+}
+.header .texto2 {
+  color: aqua;
+}
+.header:hover {
+  background-color: blueviolet;
+}
+
+.contenedor {
+  background-color: antiquewhite;
+}
+.contenedor__texto {
+  color: blue;
+  font-size: larger;
+}
+.contenedor__texto--verde {
+  color: green;
+}
+.contenedor__boton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contenedor__boton--rojo {
+  background-color: red;
+}
+.contenedor__boton:hover {
+  background-color: black;
+}

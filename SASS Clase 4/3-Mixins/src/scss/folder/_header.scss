@@ -1,0 +1,13 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.header {
+    @include m.textoFondo(v.$primario, v.$secundario, 50px);
+}
+
+
+body {
+    @include m.tablet {
+        background-color: rgb(0, 255, 13);
+    }
+}

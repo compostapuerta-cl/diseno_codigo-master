@@ -1,0 +1,31 @@
+.contenedor {
+    background-color: antiquewhite;
+
+    &__texto {
+        color: blue;
+        font-size: larger;
+
+        &--verde {
+            color: green;
+        }
+    }
+
+
+    &__boton {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &--rojo{
+            background-color: red;
+        }
+
+        &:hover{
+            background-color: black;
+        }
+    }
+
+}

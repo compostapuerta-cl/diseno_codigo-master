@@ -1,0 +1,37 @@
+/* 320px movil, 768 tablet, 1024 Pantalla */
+
+/* @media (max-width: 768px) {
+
+} */
+
+/* @media (min-width: 768px) {
+
+} */
+
+
+.contenedor, .texto {
+    width: auto;
+    height: 100vh;
+    background-color: yellow;
+    font-size: 50px;
+
+    @media (min-width: 320px) {
+        background-color: rgb(72, 255, 0);
+        color: crimson;
+        font-size: 30px;
+    }
+
+    @media (min-width: 768px) {
+        background-color: red;
+        color: rgb(0, 100, 158);
+        font-size: 60px;
+    }
+
+    @media (min-width: 1024px) {
+        background-color: rgb(76, 0, 255);
+        color: rgb(255, 0, 255);
+        font-size: 120px;
+    }
+
+    
+}

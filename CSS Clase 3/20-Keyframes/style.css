@@ -1,0 +1,25 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(fondo.jpg);
+}
+
+.ovni {
+    animation: nombreAnimacion 5s ease-out infinite;
+}
+
+@keyframes nombreAnimacion {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-60px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}

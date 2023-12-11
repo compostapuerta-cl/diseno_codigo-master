@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video y Audio y Favicon</title>
+    <link rel="shortcut icon" href="icon/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <h1>VIDEO Y AUDIO</h1>
+    <p>Atributos: controls y autoplay</p>
+    <hr>
+
+    <h2>MANERA MAS SENCILLA</h2>
+    <video src="video/video.mp4" autoplay muted></video>
+    <audio src="audio/musica.mp3" controls></audio>
+    <hr>
+    <br><br><br><br><br>
+
+    <h2>MULTIMEDIA</h2>
+    <h3>VIDEOS,IMAGENES,AUDIOS de manera EFICIENTE y PROFESIONAL</h2>
+    <hr>
+
+    <h3>Imagenes</h3>
+    <picture>
+        <source srcset="image/anime.webp" type="image/webp">
+        <source srcset="image/anime.png" type="image/png">
+        <img src="image/anime.jpg" alt="Imagen en formato JPG">
+        <!-- el atributo src se utiliza para especificar una única ruta de origen para un recurso multimedia,
+        mientras que el atributo srcset se utiliza para proporcionar múltiples rutas de origen en diferentes
+        resoluciones o formatos -->
+    </picture>
+
+    <hr>
+
+    <h3>Videos</h3>
+    <video controls>>
+        <source src="video/video.webm" type="video/webm">
+        <source src="video/video.mp4" type="video/mp4">
+        Tu navegador no admite el elemento de video.
+    </video>
+
+    <hr>
+    <h3>Audio</h3>
+    <audio controls>
+        <source src="audio/musica.ogg" type="audio/ogg">
+        <source src="audio/musica.mp3" type="audio/mp3">
+    </audio>
+
+
+</body>
+
+</html>

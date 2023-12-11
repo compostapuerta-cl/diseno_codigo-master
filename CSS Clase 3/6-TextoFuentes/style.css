@@ -1,0 +1,15 @@
+.texto{
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline wavy red;
+}
+
+.google{
+    font-family: 'Foldit', cursive;
+    font-size: 120px;
+    font-weight: 600;
+}

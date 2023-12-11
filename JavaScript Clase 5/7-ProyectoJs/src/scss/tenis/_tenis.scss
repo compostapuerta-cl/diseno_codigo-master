@@ -1,0 +1,101 @@
+
+// 1
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: 0 auto;
+
+
+    &__imagenes {
+        display: flex;
+
+        &--chica {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            // background-color: blue;
+            width: 20%;
+            cursor: pointer;
+            :checked{
+                border: solid 3px black;
+            }
+        }
+
+        &--grande {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            // background-color: aquamarine;
+            width: 80%;
+
+        }
+    }
+
+    &__informacion {
+        // background-color: red;
+        width: 80%;
+        margin: 0 auto;
+
+        h3 {
+            font-size: 3rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin: .5rem;
+        }
+    }
+
+    &__formulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+
+        &--campo {
+            border-width: .1rem;
+            border-style: solid;
+            font-size: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 1rem;
+            appearance: none;
+            margin-left: 3rem;
+            text-align: center;
+            background-color: black;
+            color: white;
+
+            &::placeholder {
+                color: white;
+            }
+        }
+    }
+
+}
+
+
+
+
+//2
+.darkMode {
+    background-color: black;
+    color: white;
+
+    .contenedor__formulario--campo {
+        background-color: white;
+        color: black;
+
+        &::placeholder {
+            color: black;
+        }
+    }
+    transition: background-color .5s ease;
+}
+
+.border{
+    border: solid 3px black;
+}
